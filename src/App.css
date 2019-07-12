@@ -1,7 +1,3 @@
-/* * {
-  background-color: green;
-} */
-
 .title {
   text-align: center;
 }
@@ -18,8 +14,8 @@
 }
 
 .pics {
-  width: 600px;
-  max-height: 400px;
+  width: 500px;
+  height: 400px;
 }
 
 .form {
@@ -29,4 +25,20 @@
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 5%
+}
+
+.capRow {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
+
+.cap2 {
+  position: absolute;
+  right: 350px;
+}
+
+.cap1 {
+  position: absolute;
+  left: 100px
 }
