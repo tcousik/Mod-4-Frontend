@@ -1,0 +1,32 @@
+/* * {
+  background-color: green;
+} */
+
+.title {
+  text-align: center;
+}
+
+.form-wrap {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PicContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pics {
+  width: 600px;
+  max-height: 400px;
+}
+
+.form {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%
+}
