@@ -11,7 +11,9 @@ export default class App extends Component {
     this.state = {
       showForm: true,
       users: [],
-      pictures: []
+      pictures: [],
+      cap1: "",
+      cap2: ""
     }
   }
 

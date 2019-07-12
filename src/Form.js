@@ -26,7 +26,7 @@ export default class Form extends Component {
   render() {
     return(
       <React.Fragment>
-      <h1 className="title">Welcome to the Caption Contest!</h1 >
+      <h1 className="title">Caption This!</h1 >
       <h2 className="title">Please create some users.</h2>
         <div className="form-wrap">
             <form className="form" onSubmit={(event) => this.handleSubmit(event)}>
